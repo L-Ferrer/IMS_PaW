@@ -1,24 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { useState, useEffect } from 'react'
+import { motion, useMotionValue, animate } from "framer-motion"
 import './App.css'
 
 //TODO: https://www.framer.com/developers/guides/
+
+function Component({ isVisible }) {
+  const opacity = useMotionValue(0)
+  
+  useEffect(() => {
+    const controls = animate(opacity, isVisible ? 1 : 0)
+    return controls.stop
+  }, [isVisible])
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
+  
+
   return (
     <>
-      <div className="Navbar">
+      <div className="navbar">
         Navbar
       </div>
     
-    
     <div className="App">
-      
+      <Component style={{backgroundColor: "white", height: "100px", width: "100px"}}></Component>
       <h1 id="main_tiitle">USA's political division</h1>
       <div>
-      <svg height="100" width="100">
-        <circle cx="50" cy="50" r="40" stroke="lightgrey" stroke-width="3" fill="none" />
+      <svg height="100" width="100" className="knot">
+        <motion.circle cx="50" cy="50" r="30" stroke="lightgrey" stroke-width="3" fill="lightgrey" 
+        whileHover={{ scale: 1.1 }}/>
       </svg>
       </div>
         <div>
