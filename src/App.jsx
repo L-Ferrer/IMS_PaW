@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { motion, useMotionValue, animate } from "framer-motion"
 import './App.css'
+import './Background.jsx'
+import Background from './Background'
 
 //TODO: https://www.framer.com/developers/guides/
 
@@ -23,7 +25,8 @@ function App() {
       <div className="navbar">
         Navbar
       </div>
-    
+    <Background></Background>
+
     <div className="App">
       <Component style={{backgroundColor: "white", height: "100px", width: "100px"}}></Component>
       <h1 id="main_tiitle">USA's political division</h1>
@@ -33,8 +36,9 @@ function App() {
         whileHover={{ scale: 1.1 }}/>
       </svg>
       </div>
-        <div>
-        The standard Lorem Ipsum passage, used since the 1500s
+        <div className='text1'>
+          <p>
+            The standard Lorem Ipsum passage, used since the 1500s
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
 Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
@@ -49,6 +53,9 @@ Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 1914 translation by H. Rackham
 "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
 
+          </p>
+        </div>
+      <div className='text2'>
 The standard Lorem Ipsum passage, used since the 1500s
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
