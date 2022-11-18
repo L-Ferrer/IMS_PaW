@@ -16,7 +16,7 @@
   padding: 2rem;
   background-color: black;
   background: rgb(29,56,205);
-  background: linear-gradient(52deg, rgba(29,56,205,0.49950419620973385) 0%, rgba(0,0,0,0.5163109188988095) 50%, rgba(196,30,30,0.49950419620973385) 100%);
+  background: linear-gradient(110deg, rgba(29,56,205,0.499) 0%, rgba(0,0,0,0.516) 59%, rgba(196,30,30,0.499) 100%);
   max-width: 100%;
   flex-wrap: nowrap;
 }

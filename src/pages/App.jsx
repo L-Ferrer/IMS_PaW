@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { motion, useMotionValue, animate } from "framer-motion"
-import './App.css'
-import './Background.jsx'
-import Background from './Background'
+import '../css/App.css'
+import '../comps/Background'
+import Background from '../comps/Background'
 
 //TODO: https://www.framer.com/developers/guides/
 
