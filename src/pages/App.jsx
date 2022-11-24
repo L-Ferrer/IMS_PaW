@@ -5,6 +5,7 @@ import '../comps/Background'
 import Background from '../comps/Background'
 
 //TODO: https://www.framer.com/developers/guides/
+//TODO: https://mui.com/material-ui/react-typography/
 
 function Component({ isVisible }) {
   const opacity = useMotionValue(0)
