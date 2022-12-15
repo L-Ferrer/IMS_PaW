@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { motion, useMotionValue, animate } from "framer-motion"
 import '../css/Background.css'
-import democrats from '../assets/democrats.png'
-import republicans from '../assets/republicans.png'
+import democrats from '/democrats.png'
+import republicans from '/republicans.png'
 
 function Background() {
     return(
