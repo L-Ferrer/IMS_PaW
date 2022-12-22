@@ -8,8 +8,8 @@ function Background() {
     return(
         <>
         <div className='bg-container'>
-            <img className="left" src={democrats} ></img>
-            <img className="right" src={republicans} ></img>
+            <img className="bg_left" src={democrats} ></img>
+            <img className="bg_right" src={republicans} ></img>
         </div>
         </>
     )

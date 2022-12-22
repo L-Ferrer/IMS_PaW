@@ -8,9 +8,39 @@
 
   text-align: center;
   justify-content: center;
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   margin: auto;
   padding: 20px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73); 
+box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73);
+}
+
+.back{
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #000;
+  z-index: -1;
+}
+.img_left{
+  position: relative;
+  z-index: -1;
+  object-fit: cover;
+  max-height: fit-content;
 }
 
 .navbar{
@@ -18,16 +48,13 @@
   top: 0;
   text-align: center;
   display: flex;
-  padding: 2rem;
+  padding: 2.8rem;
   background-color: black;
   background: rgb(29,56,205);
   background: linear-gradient(110deg, rgb(36, 61, 203) 0%, rgb(0, 0, 0) 59%, rgb(196, 37, 37) 100%);
   max-width: 100%;
   flex-wrap: nowrap;
   box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.467);
-}
-
-.text1{
 }
 
 .background{
