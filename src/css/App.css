@@ -3,7 +3,7 @@
   font-family: 'Roboto', sans-serif;;
 }
 
-.App{
+.content{
   max-width: 50vw;
 
   text-align: center;
@@ -13,11 +13,11 @@
   padding: 20px;
   z-index: 1;
   -webkit-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73); 
-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73);
+  box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73);
 }
 
 .back{
-  background-color: gray;
+  background: linear-gradient(90deg, rgb(6, 13, 56) 0%, rgb(0, 0, 0) 33%, rgb(0, 0, 0) 66%, rgb(88, 6, 6) 100%);
   height: 100%;
   width: 100%;
   position: relative;
@@ -28,12 +28,10 @@ box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73);
 }
 
 .left{
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
-  width: 25%;
-  height: 100%;
-  background-color: #000;
+  height: 100vh;
   z-index: -1;
 }
 .img_left{
@@ -41,6 +39,27 @@ box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.73);
   z-index: -1;
   object-fit: cover;
   max-height: fit-content;
+  margin-top: 30%;
+}
+
+.right{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+  margin-top: 6%;
+}
+.img_right{
+  position: relative;
+  z-index: -1;
+  object-fit: cover;
+  max-height: fit-content;
+}
+
+.img_left, .img_right{
+  -webkit-box-shadow: 0px 0px 15px 4px #000000; 
+box-shadow: 0px 0px 15px 4px #000000;
 }
 
 .navbar{
