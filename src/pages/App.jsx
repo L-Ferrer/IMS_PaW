@@ -11,6 +11,7 @@ import republicans_crop from '/republicans_cropped.png'
 
 //TODO: https://www.framer.com/developers/guides/
 //TODO: https://mui.com/material-ui/react-typography/
+//TODO: Interactive map: https://blog.bitsrc.io/top-5-map-libraries-for-react-in-2021-20a37ff5234
 
 function App() {
 
