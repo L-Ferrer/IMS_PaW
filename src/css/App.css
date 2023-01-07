@@ -119,3 +119,10 @@ section{
   margin-top: -40px;
   padding-left: 3%;
 }
+
+.title{
+  background: linear-gradient(to left, rgb(185, 25, 25), #0000 50%,rgb(29, 49, 177) 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+} 

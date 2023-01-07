@@ -28,23 +28,6 @@ function App() {
           <Content></Content>
         </div>
       </div>
-
-      {
-      }
-      {/**
-      <Parallax
-          className="parallax_left"
-          blur={{ min: -15, max: 15 }}
-          bgImage={democrats}
-          bgImageAlt="democrat_bg"
-          strength={0}
-          >
-                <div style={{ height: '100px' }} />
-        </Parallax>
-  */}
-
-
-
     </>
   )
 }

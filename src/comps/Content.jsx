@@ -21,7 +21,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h3" id="Republikaner">Republikaner</Typography>
+                        <Typography variant="h3" id="Republikaner" className="title">Republikaner</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -81,7 +81,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h3" id="BLM">BLM</Typography>
+                        <Typography variant="h3" id="BLM" className="title">BLM</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -122,7 +122,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h2" id="Feminismus">Feminismus</Typography>
+                        <Typography variant="h2" id="Feminismus" className="title">Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -315,7 +315,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ textAlign: "left", marginTop: "-30px" }} id="Sozialistischer Feminismus">Sozialistischer Feminismus</Typography>
+                        <Typography variant="h4" style={{ textAlign: "left", marginTop: "30px" }} id="Sozialistischer Feminismus">Sozialistischer Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -353,7 +353,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Radikaler_Differenzfeminismus ">Radikaler Differenzfeminismus  </Typography>
+                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Transformativer_Feminismus">Transformativer Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -370,8 +370,9 @@ function Content() {
                     >
                         <Typography variant="h5" style={{ paddingTop: "50px", paddingBottom: "-50px", textAlign: "justify" }}>
                             <div className="pblock">
-                                <p>Diese Art von Feminismus legt das Patriarchat als System der Männerherrschaft über Frauen zugrunde. Diese Herrschaft wird von der «Sexualpolitik» bestimmt, wobei die Kontrolle der Sexualität und die Gewalt gegen Frauen aufrechterhalten wird.</p>
-                                <p>Mitglieder betonen die Geschlechterdifferenz und setzen auf weibliche Solidarität und Widerstand.</p>
+                                <p>Beim transformativen Feminismus wird die Ungleichheit der Geschlechter in gesellschaftlichen Strukturen begründet, ähnlich wie beim sozialistischen Feminismus.</p>
+                                <p>Dabei wird der globale & neoliberale Kapitalismus aufgrund der sehr tiefen Ungleichheiten und die undemokratische Hinzufügung von Personen von sehr gebildeten und qualifizierten Frauen kritisiert.</p>
+                                <p>Er wird mit der Zeit relevanter aufgrund der Krisen der Versorgung des demografischen Übergangs.</p>
                             </div>
                         </Typography>
                     </InView>
@@ -390,7 +391,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Konservativer_Feminismus">Konservativer Feminismus</Typography>
+                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Öko-Feminismus">Öko-Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -407,8 +408,125 @@ function Content() {
                     >
                         <Typography variant="h5" style={{ paddingTop: "50px", paddingBottom: "-50px", textAlign: "justify" }}>
                             <div className="pblock">
-                                <p>Auch diese Art von Feminismus geht eher von der Geschlechterdifferenz aus. Allerdings sieht er im Vergleich zu früher Frauen nicht als Mütter & Hausfrauen, sondern mehr für die Chancengleichheit im Beruf.</p>
-                                <p>Besonders Positionen im Management, in Medien und in der Politik werden dort gefördert. Dabei wird teilweise differenztheoretisch mit den weiblichen Fähigkeiten in Kommunikation und Beziehungen argumentiert, die vor allem in der Wirtschaft und der Politik von Vorteil sind.</p>
+                                <p>Der ökologische Feminismus kritisiert unter anderem die Ausbeutung der Frauen, aber besonders speziell auch die Ausbeutung der Natur im patriarchalischen System des Kapitalismus.</p>
+                                <p>Während die älteren Strömungen besonders differenztheoretisch argumentieren, d.h. dass deren Argumente besonders im Unterschied zum Status quo basieren, während die neueren Strömungen eher auch die neuen Naturverhältnisse im Bezug zu den Geschlechtern hinterfragen.</p>
+                            </div>
+                        </Typography>
+                    </InView>
+                </Box>
+            </Container>
+            <Container sx={{ height: "100vh", pt: 0 }}>
+                <Box sx={{ my: "auto" }}>
+                    <InView
+                        as="section"
+                        className="text-1-1"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                                console.log("shown");
+                            } else {
+                                entry.target.classList.remove("show");
+                                console.log("hidden");
+                            }
+                        }}
+                    >
+                        <Typography variant="h4" style={{ textAlign: "left", marginTop: "30px" }} id="Postkolonialer Feminismus">Postkolonialer Feminismus</Typography>
+                    </InView>
+                    <InView
+                        as="section"
+                        className="text-1-2"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                                console.log("shown");
+                            } else {
+                                entry.target.classList.remove("show");
+                                console.log("hidden");
+                            }
+                        }}
+                    >
+                        <Typography variant="h5" style={{ paddingTop: "50px", paddingBottom: "-50px", textAlign: "justify" }}>
+                            <div className="pblock">
+                                <p>Bei dieser Richtung werden die Geschlechterverhältnisse besonders im Kontext der Machtverhältnisse der Welt kritisiert und möchten die Ungleichheiten der heutigen, postkolonialen Welt herausarbeiten.</p>
+                                <p>Die zwei Kritikpunkte, welche besonders oft genannt werden, ist der Unterschied von «weissen» Männern und Frauen zu den weiterhin untergeordneten «Subalternen» im Süden.</p>
+                                <p>Ein anderer Kritikpunkt ist auch die Ungleichheiten zwischen den Geschlechterverhältnissen in den Metropolen und den Gesellschaften in der heutigen Zeit. Es bilden sich mit der Zeit immer mehr Geschlechtertheorien mit globalem Ausmass, die die Ungleichheiten der Welt zusammenführen.</p>
+                            </div>
+                        </Typography>
+                    </InView>
+                </Box>
+            </Container>
+            <Container sx={{ height: "100vh", pt: 0, marginTop:"-40%"}}>
+                <Box sx={{ my: "auto" }}>
+                    <InView
+                        as="section"
+                        className="text-1-1"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                                console.log("shown");
+                            } else {
+                                entry.target.classList.remove("show");
+                                console.log("hidden");
+                            }
+                        }}
+                    >
+                        <Typography variant="h3" id="Cancel_Culture" className="title">Cancel Culture</Typography>
+                    </InView>
+                    <InView
+                        as="section"
+                        className="text-1-2"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                                console.log("shown");
+                            } else {
+                                entry.target.classList.remove("show");
+                                console.log("hidden");
+                            }
+                        }}
+                    >
+                        <Typography variant="h5" style={{ paddingTop: "50px", textAlign: "justify" }}>
+                            <div>
+                                <p>Unter Cancel Culture versteht man seit Ende 2010s eine Art von Ausschluss eines Sozialen/Professionellem Umkreis einer Person. Dabei ist es irrelevant, ob dies Online, auf Sozialen Medien oder in Person geschieht.</p>
+                                <p>Ein weiterer Begriff, der mit Cancel Culture oft in Verbindung gebracht wird, ist Deplatforming.</p>
+                                <p>Das Wort stammt aus den englischen Medien und wird teilweise auch als Synonym zur Zensurkultur verwendet, da sie sehr oft mit der sogenannten “Political Correctness” zu tun hat.</p>
+                            </div>
+                        </Typography>
+                    </InView>
+                </Box>
+                <Box sx={{ my: "auto", marginTop:"30%" }}>
+                    <InView
+                        as="section"
+                        className="text-1-1"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                                console.log("shown");
+                            } else {
+                                entry.target.classList.remove("show");
+                                console.log("hidden");
+                            }
+                        }}
+                    >
+                        <Typography variant="h3" id="Me_Too" className="title">Me Too</Typography>
+                    </InView>
+                    <InView
+                        as="section"
+                        className="text-1-2"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                                console.log("shown");
+                            } else {
+                                entry.target.classList.remove("show");
+                                console.log("hidden");
+                            }
+                        }}
+                    >
+                        <Typography variant="h5" style={{ paddingTop: "50px", textAlign: "justify" }}>
+                            <div>
+                                <p>#MeToo ist ein Hashtag in den sozialen Medien seit ungefähr Mitte Oktober 2017.</p>
+                                <p>Dieser Begriff lässt sich auf eine Aktivistin zurückführen und ermutigt Frauen mit Tweets auf das Ausmass von sexuellen Belästigungen und Übergriffen aufmerksam zu machen.</p>
                             </div>
                         </Typography>
                     </InView>
