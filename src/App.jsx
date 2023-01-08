@@ -1,4 +1,3 @@
-import './css/App.css'
 import './comps/Background'
 import Navbar from './comps/Navbar'
 import Home from './pages/Home'

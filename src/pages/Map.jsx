@@ -1,7 +1,16 @@
 import React from 'react';
+import '../css/Map.css'
 
 function Map() {
-    return <h1>Map</h1>
+    return (
+        <>
+        <div className="map_main">
+            <div className="map">
+                <h1>penis</h1>
+            </div>
+        </div>
+        </>
+    )
 }
 
 export default Map;

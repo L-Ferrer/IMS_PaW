@@ -2,6 +2,7 @@ import Background from "../comps/Background"
 import Content from "../comps/Content"
 import democrats_crop from '/democrats_cropped.png'
 import republicans_crop from '/republicans_cropped.png'
+import '../css/App.css'
 
 function Home() {
     return (
