@@ -161,7 +161,7 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "100px", textAlign: "left" }} id="Liberaler_Feminismus">Liberaler Feminismus</Typography>
+                        <Typography variant="h4" style={"subtitle"} id="Liberaler_Feminismus">Liberaler Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
