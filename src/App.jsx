@@ -1,7 +1,7 @@
 import './comps/Background'
 import Navbar from './comps/Navbar'
 import Home from './pages/Home'
-import Map from './pages/Map';
+import Map from './pages/AppMap';
 import {
   BrowserRouter,
   Routes,
