@@ -14,10 +14,9 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -29,10 +28,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -74,10 +73,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -89,10 +88,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -115,10 +114,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -130,10 +129,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -154,14 +153,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={"subtitle"} id="Liberaler_Feminismus">Liberaler Feminismus</Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Liberaler_Feminismus">Liberaler Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -169,10 +168,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -194,14 +193,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left", marginTop: "-37%" }} id="Differenzfeminismus">Differenzfeminismus </Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Differenzfeminismus">Differenzfeminismus </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -209,10 +208,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -232,14 +231,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Radikaler_Differenzfeminismus ">Radikaler Differenzfeminismus  </Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Radikaler_Differenzfeminismus ">Radikaler Differenzfeminismus  </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -247,10 +246,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -269,14 +268,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Konservativer_Feminismus">Konservativer Feminismus</Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Konservativer_Feminismus">Konservativer Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -284,10 +283,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -308,14 +307,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ textAlign: "left", marginTop: "30px" }} id="Sozialistischer Feminismus">Sozialistischer Feminismus</Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Sozialistischer Feminismus">Sozialistischer Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -323,10 +322,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -346,14 +345,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Transformativer_Feminismus">Transformativer Feminismus</Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Transformativer_Feminismus">Transformativer Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -361,10 +360,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -384,14 +383,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ paddingTop: "70px", textAlign: "left" }} id="Öko-Feminismus">Öko-Feminismus</Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Öko-Feminismus">Öko-Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -399,10 +398,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -423,14 +422,14 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
-                        <Typography variant="h4" style={{ textAlign: "left", marginTop: "30px" }} id="Postkolonialer Feminismus">Postkolonialer Feminismus</Typography>
+                        <Typography variant="h4" className={"subtitle"} id="Postkolonialer Feminismus">Postkolonialer Feminismus</Typography>
                     </InView>
                     <InView
                         as="section"
@@ -438,10 +437,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -463,10 +462,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -478,10 +477,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -501,10 +500,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
@@ -516,10 +515,10 @@ function Content() {
                         onChange={(inView, entry) => {
                             if (inView) {
                                 entry.target.classList.add("show");
-                                console.log("shown");
+
                             } else {
                                 entry.target.classList.remove("show");
-                                console.log("hidden");
+
                             }
                         }}
                     >
