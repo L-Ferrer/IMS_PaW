@@ -18,7 +18,7 @@ const tmp = (
 )
 
 function AppMap() {
-    return (
+    return ( 
         <>
             <a href="https://www.270towin.com/maps/2020-election-competitive-states"><img src="https://www.270towin.com/map-images/2020-election-competitive-states.png" width="800" /></a>
         </>
