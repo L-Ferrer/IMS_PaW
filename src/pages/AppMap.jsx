@@ -1,13 +1,20 @@
 import React from 'react';
 import '../css/Map.css'
-import { Map, Marker } from "pigeon-maps"
+import { Map, Marker, GeoJson } from "pigeon-maps"
+import data from '../assets/states_20m.json'
 
 function AppMap() {
     return (
         <>
             <div className="map_main">
-                <Map height={627} width={1536} defaultCenter={[50.879, 4.6997]} defaultZoom={11}>
-                    <Marker width={50} anchor={[50.879, 4.6997]} />
+                <Map height={627} width={1536} defaultCenter={[38, -100]} defaultZoom={4.5}>
+                    <Marker width={50} anchor={[38, -100]} />
+                    <GeoJson
+                        data={data}
+                        styleCallback={(feature, hover) => {
+                            
+                        }}
+                    />
                 </Map>
             </div>
         </>
