@@ -1,3 +1,7 @@
+#main_title{
+    padding-bottom: 20%
+}
+
 section {
     margin: 0;
     padding: 0;
@@ -43,21 +47,51 @@ section {
 }
 
 .text{
-    padding-top: 50px;
+    padding-top: 6%;
     text-align: justify;
 }
 
 .container{
     height: 100vh;
-    padding-top: 20;
-}
-
-.box{
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .subtitle{
-    margin-top: "100px";
     text-align: "left";
+}
+
+#BLM{
+    margin-top: 110vh;
+}
+#Feminismus{
+    margin-top: 120vh;
+}
+#Liberaler_Feminismus{
+    margin-top: 15vh;
+}
+#Differenzfeminismus{
+    margin-top: 85vh;
+}
+#Radikaler_Differenzfeminismus{
+    margin-top: 20vh
+}
+#Konservativer_Feminismus{
+    margin-top: 20vh
+}
+#Sozialistischer_Feminismus{
+    margin-top: 130vh;
+}
+#Transformativer_Feminismus{
+    margin-top: 20vh
+}
+#Öko-Feminismus{
+    margin-top: 20vh
+}
+#Postkolonialer_Feminismus{
+    margin-top: 165vh;
+}
+#Cancel_Culture{
+    margin-top: 30vh
+}
+#Me_Too{
+    margin-top: 40vh
 }
