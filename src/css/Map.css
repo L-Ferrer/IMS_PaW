@@ -5,3 +5,9 @@
     color: white;
     margin: auto;
 }
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50vw;
+  }

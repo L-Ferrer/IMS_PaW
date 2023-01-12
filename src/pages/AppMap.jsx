@@ -1,26 +1,97 @@
 import React from 'react';
 import '../css/Map.css'
-import { Map, Marker, GeoJson } from "pigeon-maps"
-import data from '../assets/states_20m.json'
 
-const tmp = (
-    <div className="map_main">
-        <Map height={627} width={1536} defaultCenter={[38, -100]} defaultZoom={4.5}>
-            <Marker width={50} anchor={[38, -100]} />
-            <GeoJson
-                data={data}
-                styleCallback={(feature, hover) => {
+import { geoCentroid } from "d3-geo";
+import {
+    ComposableMap,
+    Geographies,
+    Geography,
+    Marker,
+    Annotation
+} from "react-simple-maps";
+import allStates from "../assets/allstates.json";
 
-                }}
-            />
-        </Map>
-    </div>
-)
+const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+
+const offsets = {
+    VT: [50, -8],
+    NH: [34, 2],
+    MA: [30, -1],
+    RI: [28, 2],
+    CT: [35, 10],
+    NJ: [34, 1],
+    DE: [33, 0],
+    MD: [47, 10],
+    DC: [49, 21]
+};
 
 function AppMap() {
-    return ( 
+    return (
         <>
-            <a href="https://www.270towin.com/maps/2020-election-competitive-states"><img src="https://www.270towin.com/map-images/2020-election-competitive-states.png" width="800" /></a>
+            <ComposableMap projection="geoAlbersUsa">
+                <Geographies geography={geoUrl}>
+                    {({ geographies }) => (
+                        <>
+                            {geographies.map(geo => {
+                                const cur = allStates.find(s => s.val === geo.id);
+                                const centroid = geoCentroid(geo);
+
+                                <Marker coordinates={centroid}>
+                                    <text y="2" fontSize={14} textAnchor="middle">
+                                        {cur.id}
+                                    </text>
+                                </Marker>
+
+                                return (
+                                    Object.keys(offsets).indexOf(cur.id) === -1 ? (
+                                        <Geography
+                                            key={geo.rsmKey}
+                                            stroke="#FFF"
+                                            geography={geo}
+                                            fill={cur.color}
+                                        />
+                                    ) : (
+                                        <Annotation
+                                            subject={centroid}
+                                            dx={offsets[cur.id][0]}
+                                            dy={offsets[cur.id][1]}
+                                        >
+                                        </Annotation>
+                                    )
+                                )
+                            })}
+                            {geographies.map(geo => {
+                                const centroid = geoCentroid(geo);
+                                const cur = allStates.find(s => s.val === geo.id);
+                                return (
+                                    <g key={geo.rsmKey + "-name"}>
+                                        {cur &&
+                                            centroid[0] > -160 &&
+                                            centroid[0] < -67 &&
+                                            (Object.keys(offsets).indexOf(cur.id) === -1 ? (
+                                                <Marker coordinates={centroid}>
+                                                    <text y="2" fontSize={14} textAnchor="middle">
+                                                        {cur.id}
+                                                    </text>
+                                                </Marker>
+                                            ) : (
+                                                <Annotation
+                                                    subject={centroid}
+                                                    dx={offsets[cur.id][0]}
+                                                    dy={offsets[cur.id][1]}
+                                                >
+                                                    <text x={4} fontSize={14} alignmentBaseline="middle">
+                                                        {cur.id}
+                                                    </text>
+                                                </Annotation>
+                                            ))}
+                                    </g>
+                                );
+                            })}
+                        </>
+                    )}
+                </Geographies>
+            </ComposableMap>
         </>
     )
 }
