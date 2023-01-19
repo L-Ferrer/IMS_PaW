@@ -1,13 +1,67 @@
-.map_main{
-    background-color: black;
+.main {
     height: 100%;
     width: 100%;
-    color: white;
-    margin: auto;
+    text-align: center;
 }
 
 svg {
     display: inline-block;
     vertical-align: middle;
     width: 50vw;
-  }
+}
+
+.legend{
+    position: absolute;
+    max-width: 5vw;
+    max-height: 5vw;
+    margin-left: 7%;
+    margin-top: 40vh;
+    top: 0;
+}
+
+.blue {
+    background-color: #2578f4;
+    height: 2vw;
+    width: 2vw;
+    margin-bottom: 80%;
+}
+
+.red {
+    background-color: #e82424;
+    height: 2vw;
+    width: 2vw;
+}
+
+.grey {
+    background-color: #9a9a9a;
+    height: 2vw;
+    width: 2vw;
+}
+
+.legend_text{
+    position: relative;
+    margin-left: 3vw;
+
+    font-size: 1.5vw;
+    color: #000000;
+}
+
+.year_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+    height: 150px;
+    padding-top: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.year{
+    background-color: #9a9a9a65;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px -8px #00000014, 0 9px 28px #0000000d, 0 12px 48px 16px #00000008;
+}
