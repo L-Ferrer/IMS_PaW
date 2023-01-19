@@ -20,6 +20,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h3" id="Demokraten" className="title">Demokraten</Typography>
+                        <img src="/democrats.webp" className="title_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -63,8 +64,6 @@ function Content() {
                         </Typography>
                     </InView>
                 </Box>
-            </Container>
-            <Container className="container">
                 <Box className="box">
                     <InView
                         as="section"
@@ -78,6 +77,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h3" id="Republikaner" className="title">Republikaner</Typography>
+                        <img src="/republican.jpg" className="title_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -138,6 +138,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h3" id="BLM" className="title">BLM</Typography>
+                        <img src="/BLM.webp" className="title_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -179,6 +180,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h2" id="Feminismus" className="title">Feminismus</Typography>
+                        <img src="/feminism.jpeg" className="title_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -218,6 +220,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h4" className="subtitle" id="Liberaler_Feminismus">Liberaler Feminismus</Typography>
+                        <img src="/liberal_feminism.jpg" className="subtitle_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -258,6 +261,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h4" className="subtitle" id="Differenzfeminismus">Differenzfeminismus </Typography>
+                        <img src="/difference_feminism.jpg" className="subtitle_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -296,6 +300,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h4" className="subtitle" id="Radikaler_Differenzfeminismus">Radikaler Differenzfeminismus  </Typography>
+                        <img src="/radical_difference_feminism.webp" className="subtitle_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -332,7 +337,9 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" className="subtitle" id="Konservativer_Feminismus">Konservativer Feminismus</Typography>
+                        <Typography variant="h4" className="subtitle" id="Konservativer_Feminismus">Konservativer Feminismus
+                        <img src="/conservative_feminism.jpg" className="subtitle_image"></img>
+                        </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -372,6 +379,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h4" className="subtitle" id="Sozialistischer_Feminismus">Sozialistischer Feminismus</Typography>
+                        <img src="/socialist_feminism.webp" className="subtitle_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -409,7 +417,9 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" className="subtitle" id="Transformativer_Feminismus">Transformativer Feminismus</Typography>
+                        <Typography variant="h4" className="subtitle" id="Transformativer_Feminismus">Transformativer Feminismus
+                        <img src="transformative_feminism.png" className="subtitle_image"></img>
+                        </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -448,6 +458,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h4" className="subtitle" id="Öko-Feminismus">Öko-Feminismus</Typography>
+                        <img src="eco_feminism.webp" className="subtitle_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -486,7 +497,9 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" className="subtitle" id="Postkolonialer_Feminismus">Postkolonialer Feminismus</Typography>
+                        <Typography variant="h4" className="subtitle" id="Postkolonialer_Feminismus">Postkolonialer Feminismus
+                        <img src="postcolonial_feminism.jpg" className="subtitle_image"></img>
+                        </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -527,6 +540,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h3" id="Cancel_Culture" className="title">Cancel Culture</Typography>
+                        <img src="/cancel_culture1.jpg" className="title_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -565,6 +579,7 @@ function Content() {
                         }}
                     >
                         <Typography variant="h3" id="Me_Too" className="title">Me Too</Typography>
+                        <img src="/MeToo.png" className="title_image"></img>
                     </InView>
                     <InView
                         as="section"
@@ -587,6 +602,9 @@ function Content() {
                         </Typography>
                     </InView>
                 </Box>
+            </Container>
+            <Container className="container">
+
             </Container>
             <Container className="container">
 

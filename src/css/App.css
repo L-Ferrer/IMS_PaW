@@ -72,7 +72,7 @@
   top: 0;
   text-align: center;
   display: flex;
-  padding: 2rem;
+  padding: 1.8rem;
   background-color: black;
   background: rgb(29, 56, 205);
   background: linear-gradient(110deg, rgb(36, 61, 203) 0%, rgb(0, 0, 0) 59%, rgb(196, 37, 37) 100%);

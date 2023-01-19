@@ -59,17 +59,33 @@ section {
     text-align: "left";
 }
 
+.title_image{
+    padding-top: 50px;
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subtitle_image{
+    padding-top: 25px;
+    width: 50%;
+    object-fit: cover;
+}
+
+#Republikaner{
+    margin-top: 60vh;
+}
 #BLM{
-    margin-top: 110vh;
+    margin-top: 440vh;
 }
 #Feminismus{
-    margin-top: 120vh;
+    margin-top: 230vh;
 }
 #Liberaler_Feminismus{
     margin-top: 15vh;
 }
 #Differenzfeminismus{
-    margin-top: 85vh;
+    margin-top: 190vh;
 }
 #Radikaler_Differenzfeminismus{
     margin-top: 20vh
@@ -78,7 +94,7 @@ section {
     margin-top: 20vh
 }
 #Sozialistischer_Feminismus{
-    margin-top: 130vh;
+    margin-top: 290vh;
 }
 #Transformativer_Feminismus{
     margin-top: 20vh
@@ -87,7 +103,7 @@ section {
     margin-top: 20vh
 }
 #Postkolonialer_Feminismus{
-    margin-top: 165vh;
+    margin-top: 280vh;
 }
 #Cancel_Culture{
     margin-top: 30vh
