@@ -337,9 +337,8 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" className="subtitle" id="Konservativer_Feminismus">Konservativer Feminismus
+                        <Typography variant="h4" className="subtitle" id="Konservativer_Feminismus">Konservativer Feminismus</Typography>
                         <img src="/conservative_feminism.jpg" className="subtitle_image"></img>
-                        </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -417,9 +416,8 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" className="subtitle" id="Transformativer_Feminismus">Transformativer Feminismus
+                        <Typography variant="h4" className="subtitle" id="Transformativer_Feminismus">Transformativer Feminismus</Typography>
                         <img src="transformative_feminism.png" className="subtitle_image"></img>
-                        </Typography>
                     </InView>
                     <InView
                         as="section"
@@ -497,9 +495,8 @@ function Content() {
                             }
                         }}
                     >
-                        <Typography variant="h4" className="subtitle" id="Postkolonialer_Feminismus">Postkolonialer Feminismus
+                        <Typography variant="h4" className="subtitle" id="Postkolonialer_Feminismus">Postkolonialer Feminismus</Typography>
                         <img src="postcolonial_feminism.jpg" className="subtitle_image"></img>
-                        </Typography>
                     </InView>
                     <InView
                         as="section"
