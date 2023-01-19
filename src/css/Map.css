@@ -7,7 +7,7 @@
 svg {
     display: inline-block;
     vertical-align: middle;
-    width: 50vw;
+    width: 45vw;
 }
 
 .legend{
@@ -47,15 +47,16 @@ svg {
 }
 
 .year_container{
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: fit-content;
     height: 150px;
-    padding-top: 2rem;
-    text-align: center;
-    margin: auto;
+    margin-left: 3%;
+    margin-top: 60vh;
+    top: 0;
 }
 
 .year{

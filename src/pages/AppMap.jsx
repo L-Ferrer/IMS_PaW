@@ -126,7 +126,7 @@ function AppMap() {
                                     step={4}
                                     dots
                                     onChange={(e) => { setYear(e.toString()); }}
-                                    style={{ width: "30vw" }}
+                                    style={{ width: "20vw" }}
                                 />
                             </Col>
                         </Row>
