@@ -19,6 +19,64 @@ function Content() {
                             }
                         }}
                     >
+                        <Typography variant="h3" id="Demokraten" className="title">Demokraten</Typography>
+                    </InView>
+                    <InView
+                        as="section"
+                        className="text-1-2"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+
+                            } else {
+                                entry.target.classList.remove("show");
+
+                            }
+                        }}
+                    >
+                        <Typography variant="h5" id="Demokraten_text" className="text">
+                            Die Demokratische Partei wurde am 8. Januar 1828 gegründet und gehört zusammen mit den Republikanern zu den zwei wichtigsten Parteien im ganzen Land. Sie haben sich ursprünglich für die Ausbreitung der USA, der Ausweitung der präsidentiellen Macht sowie die Unterstützung von Sklaverei zur Zeit der Sezessionskriege um 1860.
+                            <br />
+                            <ul>
+                                <li>
+                                    Demokraten unterstützen hohe Steuern. Ihrer Meinung nach hilft die Erhöhung der Steuern für Unter- & Mittelschicht Amerikaner gegen die Arbeitslosenquote und dem Gehaltzuwachs.
+                                </li>
+                                <li>
+                                    Sozialhilfe: Demokraten wollen die Sozialhilfe fördern und würden auch erhöhtes Geld für dieses Programm einzahlen.
+                                </li>
+                                <li>
+                                    Gesundheitswesen: Demokraten haben schon «Medicare», «Medicaid» und «the affordable care act» eingeführt. Sie stehen für ein gerechtes und günstiges Gesundheitssystem.
+                                </li>
+                                <li>
+                                    Waffen: Demokraten sind gegen einfach erhältliche Waffen und setzen sich für Hintergrundchecks ein. Dabei versuchen sie den Besitz von Waffen an potenziell gefährlichen Personen zu limitieren.
+                                </li>
+                                <li>
+                                    Abtreibung: Demokraten sind für die Abtreibung und für die Rechte von Frauen. Sie sind gegen die «heartbeat bill» und für die «Roe vs. Wade» Entscheidung.
+                                </li>
+                                <li>
+                                    LGBTQ+: Demokraten sind für die vollständige Integration der Alphabet Mafia in der Gesellschaft. Sie finden, dass gleichgeschlechtliche Paare im Vergleich zu Heteropaaren weniger Rechte haben und auch dass Transgender zu wenig anerkannt werden.
+                                </li>
+                                <li>
+                                    Freier Markt: Demokraten sind eher gegen den freien Markt, aber sind nicht direkt gegen diesen. Es ist mehr nicht in ihrer Agenda und wird so eher als irrelevant angesehen.
+                                </li>
+                            </ul>
+                        </Typography>
+                    </InView>
+                </Box>
+            </Container>
+            <Container className="container">
+                <Box className="box">
+                    <InView
+                        as="section"
+                        className="text-1-1"
+                        onChange={(inView, entry) => {
+                            if (inView) {
+                                entry.target.classList.add("show");
+                            } else {
+                                entry.target.classList.remove("show");
+                            }
+                        }}
+                    >
                         <Typography variant="h3" id="Republikaner" className="title">Republikaner</Typography>
                     </InView>
                     <InView

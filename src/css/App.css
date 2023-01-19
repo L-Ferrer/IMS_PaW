@@ -41,6 +41,7 @@
   object-fit: cover;
   max-height: 100vh;
   margin-top: 25%;
+  max-width: 25vw;
 }
 
 .right {
@@ -57,6 +58,7 @@
   z-index: -1;
   object-fit: cover;
   max-height: 100vh;
+  max-width: 25vw;
 }
 
 .img_left,
